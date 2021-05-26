@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545025302811",
+    "project_id": "campeonato-brasileiro-4d463",
+    "storage_bucket": "campeonato-brasileiro-4d463.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545025302811:android:fd89b8db7346b8960173be",
+        "android_client_info": {
+          "package_name": "com.example.brasileirao_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545025302811-2v2e3crf5u3n0aitpasq01fshg01is74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2PtP0REX5iTxXJXRMJM3wrp6ey6Veztc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545025302811-2v2e3crf5u3n0aitpasq01fshg01is74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
