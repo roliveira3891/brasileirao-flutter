@@ -18,7 +18,8 @@ class DB {
   }
 
   initDatabase() async {
-    return await openDatabase(join(await getDatabasesPath(), 'dados2.db'),
+    return await openDatabase(
+        join(await getDatabasesPath(), 'dadostimes_api1.db'),
         version: 1, onCreate: (db, versao) async {
       await db.execute(times);
       await db.execute(titulos);
@@ -32,7 +33,8 @@ class DB {
       nome TEXT,
       pontos INTEGER,
       brasao TEXT,
-      cor TEXT
+      cor TEXT,
+      idAPI INTEGER
     );
   ''';
 
@@ -52,6 +54,7 @@ class DB {
         'nome': time.nome,
         'brasao': time.brasao,
         'pontos': time.pontos,
+        'idAPI': time.idAPI,
         'cor': time.cor.toString().replaceAll('Color(', '').replaceAll(')', ''),
       });
     }

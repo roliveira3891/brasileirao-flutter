@@ -42,6 +42,7 @@ class AutenticacaoPage extends StatelessWidget {
                           labelText: 'Email',
                         ),
                         keyboardType: TextInputType.emailAddress,
+                        // ignore: missing_return
                         validator: (value) {
                           if (value.isEmpty) {
                             return 'Informe o email corretamente';
